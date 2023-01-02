@@ -1,12 +1,15 @@
-import React from 'react'
-import ColorGenerator from './components/day06/ColorGenerator'
+import React, { Component } from 'react'
+import Seven from './components/day07'
 
-const App = () => {
-  return (
-    <div>
-      <ColorGenerator />
-    </div>
-  )
+class App extends Component {
+  render() {
+    return (
+      <div>
+        {/* <ColorGenerator /> */}
+        <Seven />
+      </div>
+    )
+  }
 }
 
 export default App
