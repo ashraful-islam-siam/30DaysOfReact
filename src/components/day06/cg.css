@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #e1e1e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    flex-basis: 1;
+    color: white;
+    text-align: center;
+    /* padding: 25px; */
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.even {
+    background-color: green;
+}
+.odd {
+    background-color: red;
+}
